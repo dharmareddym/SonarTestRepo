@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
+﻿namespace SonarTest.IntgTest.AzureUtils
 {
     public interface IAzureConnector
     {

@@ -1,6 +1,5 @@
-﻿using Delivery.DESADVAdaptorsParallelRun.IntgTest.constants;
-
-namespace lsp_delivery_tricepsadaptor_parallelrun.Comparators
+﻿using SonarTest.IntgTest.constants;
+namespace SonarTest.IntgTest.Comparators
 {
     public class PurchaseOrderComparator : IPurchaseOrderComparator
     {

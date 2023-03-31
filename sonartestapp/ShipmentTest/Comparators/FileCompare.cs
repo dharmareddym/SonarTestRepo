@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
-
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
+﻿namespace SonarTest.IntgTest.Comparators
 {
     // This implementation defines a very simple comparison  
     // between two FileInfo objects. It only compares the name  

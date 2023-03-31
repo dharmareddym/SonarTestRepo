@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
+﻿namespace SonarTest.IntgTest.Comparators
 {
     public interface IComparatorHelper
     {

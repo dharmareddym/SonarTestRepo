@@ -1,8 +1,8 @@
-﻿namespace lsp_delivery_tricepsadaptor_parallelrun.Comparators
+﻿namespace SonarTest.IntgTest.Comparators
 {
     public interface IPurchaseOrderComparator
     {
-       public  bool ComparePOHeader(string expectedFileLine, string actualFileLine);
+        public bool ComparePOHeader(string expectedFileLine, string actualFileLine);
         public bool ComparePODetail(string expectedFileLine, string actualFileLine);
     }
 }

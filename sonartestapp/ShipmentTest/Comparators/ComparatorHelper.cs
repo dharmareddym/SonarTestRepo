@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
+﻿namespace SonarTest.IntgTest.Comparators
 {
     public class ComparatorHelper : IComparatorHelper
     {
@@ -38,8 +32,9 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
                 {
                     deliveryUnits.Add(cartonNumber, lst);
                 }
-                else {
-                    List<string> lines= deliveryUnits[cartonNumber];
+                else
+                {
+                    List<string> lines = deliveryUnits[cartonNumber];
                     lines.AddRange(lst);
                 }
             }

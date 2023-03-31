@@ -1,21 +1,19 @@
 ﻿using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
-using Delivery.DESADVAdaptorsParallelRun.IntgTest.constants;
 using Ebixio.LZW;
+using SonarTest.IntgTest.AzureUtils;
+using SonarTest.IntgTest.constants;
 using System.Globalization;
-using System.IO;
-using System.IO.Compression;
-using System.Text;
 
 namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
 {
-    public class TricepsFileDownloader : ITricepsFileDownloader
+    public class FileDownloader : IFileDownloader
     {
 
         DateTimeOffset dateStart = DateTimeOffset.Now.Date.AddDays(-2);
         DateTimeOffset dateEnd = DateTimeOffset.Now.Date.AddDays(-1);
 
-        public TricepsFileDownloader()
+        public FileDownloader()
         {
         }
         public void DownloadFiles(string depotId = null)
@@ -35,7 +33,7 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
                 foreach (var comptressedFilePath in compressedFilelist)
                 {
 
-                    string expectedFilePath= ApplicationConstants.LOCAL_UNCOMPRESSED_EXPECTED_FILE_PATH + "\\" + Path.GetFileName(comptressedFilePath).Split(".")[0];
+                    string expectedFilePath = ApplicationConstants.LOCAL_UNCOMPRESSED_EXPECTED_FILE_PATH + "\\" + Path.GetFileName(comptressedFilePath).Split(".")[0];
 
                     using (Stream inStream = new LzwInputStream(File.OpenRead(ApplicationConstants.LOCAL_COMPRESSED_EXPECTED_FILE_PATH + "/" + Path.GetFileName(comptressedFilePath))))
                     using (FileStream outStream = File.Create(expectedFilePath))
@@ -111,7 +109,7 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
                                     using (StreamReader reader = new StreamReader(responseStream))
                                     {
                                         responseBody = reader.ReadToEnd();
-                                    }                                
+                                    }
                                 }
 
                                 string[] lines = responseBody.Split('\n');

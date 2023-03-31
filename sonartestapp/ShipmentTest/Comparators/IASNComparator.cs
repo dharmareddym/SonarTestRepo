@@ -1,4 +1,4 @@
-﻿namespace lsp_delivery_tricepsadaptor_parallelrun.Comparators
+﻿namespace SonarTest.IntgTest.Comparators
 {
     public interface IASNComparator
     {

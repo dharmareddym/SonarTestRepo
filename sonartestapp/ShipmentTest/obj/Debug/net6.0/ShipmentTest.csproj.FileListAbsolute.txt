@@ -1,5 +1,0 @@
-C:\SonarTestRepo\sonartestapp\ShipmentTest\obj\Debug\net6.0\ShipmentTest.csproj.AssemblyReference.cache
-C:\SonarTestRepo\sonartestapp\ShipmentTest\obj\Debug\net6.0\ShipmentTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\SonarTestRepo\sonartestapp\ShipmentTest\obj\Debug\net6.0\ShipmentTest.AssemblyInfoInputs.cache
-C:\SonarTestRepo\sonartestapp\ShipmentTest\obj\Debug\net6.0\ShipmentTest.AssemblyInfo.cs
-C:\SonarTestRepo\sonartestapp\ShipmentTest\obj\Debug\net6.0\ShipmentTest.csproj.CoreCompileInputs.cache

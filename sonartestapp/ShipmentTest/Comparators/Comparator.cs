@@ -1,14 +1,8 @@
-﻿using Delivery.DESADVAdaptorsParallelRun.IntgTest.constants;
-using lsp_delivery_tricepsadaptor_parallelrun.Comparators;
-using lsp_delivery_tricepsadaptor_parallelrun.constants;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using SonarTest.constants;
+using SonarTest.IntgTest.constants;
 
 
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
+namespace SonarTest.IntgTest.Comparators
 {
     public class Comparator : IComparator
     {
@@ -22,7 +16,7 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
             _purchaseOrderComparator = new PurchaseOrderComparator();
         }
 
-        public bool CompareTricepsFiles(string depotNumber)
+        public bool CompareFiles(string depotNumber)
         {
             try
             {
