@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
+﻿namespace SonarTest.IntgTest.Comparators
 {
     public class ComparatorHelper : IComparatorHelper
     {
 
-        public Dictionary<string, List<string>> GetTricepsCartonAndAssociatedLines(string fileContent, string depotNumber)
+        public Dictionary<string, List<string>> GetCartonAndAssociatedLines(string fileContent, string depotNumber)
         {
             string headerPrefix = "F" + depotNumber + "AH";
             List<string> recordsList = fileContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None).ToList();
@@ -38,8 +32,9 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
                 {
                     deliveryUnits.Add(cartonNumber, lst);
                 }
-                else {
-                    List<string> lines= deliveryUnits[cartonNumber];
+                else
+                {
+                    List<string> lines = deliveryUnits[cartonNumber];
                     lines.AddRange(lst);
                 }
             }

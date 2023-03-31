@@ -1,15 +1,19 @@
-﻿using Delivery.DESADVAdaptorsParallelRun.IntgTest.constants;
+﻿
 
-namespace lsp_delivery_tricepsadaptor_parallelrun.HouseKeep
+using SonarTest.IntgTest.constants;
+
+namespace SonarTest.IntgTest.HouseKeep
 {
-    public class HouseKeeper:IHouseKeeper
+    public class HouseKeeper : IHouseKeeper
     {
 
-        public HouseKeeper() { 
-        
+        public HouseKeeper()
+        {
+
         }
 
-        public void DeleteFiles() {
+        public void DeleteFiles()
+        {
 
             if (Directory.Exists(ApplicationConstants.LOCAL_EXPECTED_FILE_PATH))
             {

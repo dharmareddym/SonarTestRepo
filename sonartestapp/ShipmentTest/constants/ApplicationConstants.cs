@@ -1,22 +1,18 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.constants
+﻿namespace SonarTest.IntgTest.constants
 {
     public static class ApplicationConstants
     {
-        public  const string EXPECTED_FILES_CONTAINER = "adaptor-prod";
-        public const string Actual_FILES_CONTAINER = "adaptor-prod";
+        public const string EXPECTED_FILES_CONTAINER = "";
+        public const string Actual_FILES_CONTAINER = "";
         public const string AZURE_CONNECTION_STRING = "";
-        public const  string Actual_FILES_PATH = $"";
-        public const  string EXPECTED_FILES_PATH = "";
+        public const string Actual_FILES_PATH = $"";
+        public const string EXPECTED_FILES_PATH = "";
 
         public static string BASE_PATH = GetTestFilePath("testdata", "");
-        public static  string LOCAL_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"expectedoutput/");
+        public static string LOCAL_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"expectedoutput/");
         public static string LOCAL_COMPRESSED_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"compressed/");
         public static string LOCAL_UNCOMPRESSED_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"uncompressed/");
-        public static  string LOCAL_ACTUAL_FILE_PATH = Path.Combine(BASE_PATH, @"actualoutput/");       
+        public static string LOCAL_ACTUAL_FILE_PATH = Path.Combine(BASE_PATH, @"actualoutput/");
         public static readonly string LOG_FILE = Path.Combine(BASE_PATH, $"logs/DesAdvFromLPToLegacyLog_{DateTime.UtcNow.ToString("ddMMyyyyHh")}.txt");
         public static readonly string LOG_FOLDER = Path.Combine(BASE_PATH, "logs/");
 

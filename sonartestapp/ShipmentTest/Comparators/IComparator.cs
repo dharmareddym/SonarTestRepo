@@ -1,8 +1,8 @@
-﻿namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators
+﻿namespace SonarTest.IntgTest.Comparators
 {
     public interface IComparator
     {
-        
-        bool CompareTricepsFiles(string depotNumber);
+
+        bool CompareFiles(string depotNumber);
     }
 }

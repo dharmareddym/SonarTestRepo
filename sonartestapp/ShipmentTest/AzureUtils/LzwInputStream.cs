@@ -22,9 +22,6 @@
 // combination.
 //
 
-using System;
-using System.IO;
-
 namespace Ebixio.LZW
 {
 
@@ -312,8 +309,8 @@ namespace Ebixio.LZW
             }
 
 
-        // loop, filling local buffer until enough data has been decompressed
-        MainLoop: do
+            // loop, filling local buffer until enough data has been decompressed
+            MainLoop: do
             {
                 if (end < EXTRA) Fill();
 

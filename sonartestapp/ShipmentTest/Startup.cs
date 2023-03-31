@@ -1,8 +1,7 @@
 ﻿using Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils;
-using Delivery.DESADVAdaptorsParallelRun.IntgTest.Comparators;
-using lsp_delivery_tricepsadaptor_parallelrun.HouseKeep;
+using SonarTest.IntgTest.Comparators;
 
-namespace lsp_delivery_tricepsadaptor_parallelrun
+namespace SonarTest.IntgTest
 {
     public class Startup
     {
@@ -10,10 +9,9 @@ namespace lsp_delivery_tricepsadaptor_parallelrun
         public static void Main(string[] args)
         {
             Console.WriteLine("Test");
-            new TricepsFileDownloader().ExtractExpectedFiles();
-            //new HouseKeeper().DeleteFiles();
-            //new TricepsFileDownloader().DownloadFiles();
-            //var isTestSuccesful = new Comparator().CompareTricepsFiles(depot);
+            new FileDownloader().ExtractExpectedFiles();
+
+           new Comparator().CompareFiles(depot);
         }
     }
 }

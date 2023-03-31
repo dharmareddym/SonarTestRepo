@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="notes\" />
+    <Folder Include="testdata\compressed\" />
   </ItemGroup>
 
 </Project>

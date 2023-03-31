@@ -1,15 +1,12 @@
 ﻿using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
-using Delivery.DESADVAdaptorsParallelRun.IntgTest.constants;
-using System;
-using System.Collections.Generic;
+using SonarTest.IntgTest.constants;
 using System.Diagnostics;
 using System.Globalization;
-using System.IO;
 
-namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
+namespace SonarTest.IntgTest.AzureUtils
 {
-    public class AzureConnector: IAzureConnector
+    public class AzureConnector : IAzureConnector
     {
         //List<string> includeDepots = new List<string>() { "003", "021", "011", "009", "026", "039", "075", "008", "016", "006", "037", "038", "070", "012" };
         //List<string> includeDepots = new List<string>() { "016"};
