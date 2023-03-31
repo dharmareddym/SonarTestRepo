@@ -5,7 +5,7 @@ namespace SonarTest.IntgTest
 {
     public class Startup
     {
-        static string depot = "0631";
+        static string depot = "123";
         public static void Main(string[] args)
         {
             Console.WriteLine("Test");
