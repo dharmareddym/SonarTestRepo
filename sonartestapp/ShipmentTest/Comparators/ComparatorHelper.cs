@@ -3,7 +3,7 @@
     public class ComparatorHelper : IComparatorHelper
     {
 
-        public Dictionary<string, List<string>> GetTricepsCartonAndAssociatedLines(string fileContent, string depotNumber)
+        public Dictionary<string, List<string>> GetCartonAndAssociatedLines(string fileContent, string depotNumber)
         {
             string headerPrefix = "F" + depotNumber + "AH";
             List<string> recordsList = fileContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None).ToList();

@@ -1,4 +1,4 @@
-﻿namespace lsp_delivery_tricepsadaptor_parallelrun.HouseKeep
+﻿namespace SonarTest.IntgTest.HouseKeep
 {
     public interface IHouseKeeper
     {

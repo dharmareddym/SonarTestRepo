@@ -18,8 +18,8 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
         }
         public void DownloadFiles(string depotId = null)
         {
-            DownloadTricepsFilesFromAzureBlob(ApplicationConstants.Actual_FILES_CONTAINER, ApplicationConstants.Actual_FILES_PATH, "actual", string.Empty);
-            DownloadTricepsFilesFromAzureBlob(ApplicationConstants.EXPECTED_FILES_CONTAINER, ApplicationConstants.EXPECTED_FILES_PATH, "expected", string.Empty);
+            DownloadFilesFromAzureBlob(ApplicationConstants.Actual_FILES_CONTAINER, ApplicationConstants.Actual_FILES_PATH, "actual", string.Empty);
+            DownloadFilesFromAzureBlob(ApplicationConstants.EXPECTED_FILES_CONTAINER, ApplicationConstants.EXPECTED_FILES_PATH, "expected", string.Empty);
         }
 
         public void ExtractExpectedFiles()
@@ -66,7 +66,7 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
 
             }
         }
-        private void DownloadTricepsFilesFromAzureBlob(string containerName, string blobPath, string localMachinePath, string depotPrefix = null)
+        private void DownloadFilesFromAzureBlob(string containerName, string blobPath, string localMachinePath, string depotPrefix = null)
         {
             string continuationToken = null;
             string responseBody = string.Empty;
@@ -115,7 +115,6 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils
                                 string[] lines = responseBody.Split('\n');
                                 var receivingDepot = lines[0].Substring(2, 3);// Receiving Depot
                                 var fileName = $"{receivingDepot}_{lines[0].Substring(13, 9)}";
-                                //string folder = @"C:\Triceps\" + localMachinePath + "\\" + receivingDepot;
                                 string folder = ApplicationConstants.LOCAL_ACTUAL_FILE_PATH;
                                 string localPath = folder + "\\" + fileName;
 

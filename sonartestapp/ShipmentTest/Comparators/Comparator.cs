@@ -21,15 +21,13 @@ namespace SonarTest.IntgTest.Comparators
             try
             {
                 int comparisonCount = 0;
-                File.AppendAllText(ApplicationConstants.LOG_FILE, $"Triceps Adaptor Results" + Environment.NewLine);
+                File.AppendAllText(ApplicationConstants.LOG_FILE, $"  Results" + Environment.NewLine);
 
 
                 var expectedDir = new DirectoryInfo(ApplicationConstants.LOCAL_EXPECTED_FILE_PATH);
                 var actualDir = new DirectoryInfo(ApplicationConstants.LOCAL_ACTUAL_FILE_PATH);
 
-                //var expectedDir = new DirectoryInfo(@"C:\Triceps\expected\");
-                //var actualDir = new DirectoryInfo(@"C:\Triceps\actual\");
-
+               
                 var expectedFiles = expectedDir.GetFiles("*.*", SearchOption.AllDirectories);
                 var actualFiles = actualDir.GetFiles("*.*", SearchOption.AllDirectories);
                 //var expectedFiles = expectedDir.GetFiles("*" + partialName + "*.*", SearchOption.AllDirectories);
@@ -69,7 +67,6 @@ namespace SonarTest.IntgTest.Comparators
                         Console.WriteLine(v.FullName);
                         bool retValue;
 
-                        //string actualPath = @"C:\Triceps\actual\";
                         string actualPath = ApplicationConstants.LOCAL_ACTUAL_FILE_PATH;
                         if (Path.GetFileName(v.FullName).StartsWith("IWS"))
                         {
@@ -151,11 +148,11 @@ namespace SonarTest.IntgTest.Comparators
                     File.AppendAllText(logFile, "Expected File Lines : " + expectedFileLines.Length + Environment.NewLine + "Actual File Lines : " + actualFileLines.Length + Environment.NewLine);
                 }
 
-                results.Add(CompareTricepsRecords(expectedFileLines[0], actualFileLines[0], string.Empty, RecordType.FILEHEADER));
-                results.Add(CompareTricepsRecords(expectedFileLines[expectedFileLines.Length - 1], actualFileLines[actualFileLines.Length - 1], string.Empty, RecordType.FILEFOOTER));
+                results.Add(CompareRecords(expectedFileLines[0], actualFileLines[0], string.Empty, RecordType.FILEHEADER));
+                results.Add(CompareRecords(expectedFileLines[expectedFileLines.Length - 1], actualFileLines[actualFileLines.Length - 1], string.Empty, RecordType.FILEFOOTER));
 
-                Dictionary<string, List<string>> expectedDeliveryUnits = _comparatorHelper.GetTricepsCartonAndAssociatedLines(expectedFileContent, depotNumber);
-                Dictionary<string, List<string>> actualDeliveryUnits = _comparatorHelper.GetTricepsCartonAndAssociatedLines(actualFileContent, depotNumber);
+                Dictionary<string, List<string>> expectedDeliveryUnits = _comparatorHelper.GetCartonAndAssociatedLines(expectedFileContent, depotNumber);
+                Dictionary<string, List<string>> actualDeliveryUnits = _comparatorHelper.GetCartonAndAssociatedLines(actualFileContent, depotNumber);
 
                 string[] expectedDus = expectedDeliveryUnits.Keys.ToList().ToArray();
                 for (int i = 0; i < expectedDus.Length; i++)
@@ -179,13 +176,13 @@ namespace SonarTest.IntgTest.Comparators
                                     // actualLine = actualLines.FirstOrDefault(x => x.StartsWith(itemPrefix));
                                     if (!string.IsNullOrEmpty(expectedLine.Trim()) && !string.IsNullOrEmpty(actualLine.Trim()) && !actualLine.StartsWith(fileHeaderFooterPrefix) && !expectedLine.StartsWith(fileHeaderFooterPrefix))
                                     {
-                                        results.Add(CompareTricepsRecords(expectedLine, actualLine, cartonNumber, RecordType.DETAIL));
+                                        results.Add(CompareRecords(expectedLine, actualLine, cartonNumber, RecordType.DETAIL));
                                     }
                                 }
                             }
                             else
                             {
-                                results.Add(CompareTricepsRecords(expectedLines[0], actualLines[0], cartonNumber, RecordType.DUHEADER));
+                                results.Add(CompareRecords(expectedLines[0], actualLines[0], cartonNumber, RecordType.DUHEADER));
                             }
                         }
                     }
@@ -218,7 +215,7 @@ namespace SonarTest.IntgTest.Comparators
 
                 if (expectedFileLines.Length == actualFileLines.Length)
                 {
-                    CompareTricepsRecords(expectedFileLines[0], actualFileLines[0], "", RecordType.POHEADER);
+                    CompareRecords(expectedFileLines[0], actualFileLines[0], "", RecordType.POHEADER);
                     List<string> expectedrecordsList = expectedFileContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None).ToList().GetRange(1, expectedFileLines.Length - 1);
                     List<string> ActualrecordsList = expectedFileContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None).ToList().GetRange(1, expectedFileLines.Length - 1);
                     var poLines = expectedrecordsList.GroupBy(s => new { POSKU = s.Substring(0, 24) });
@@ -228,7 +225,7 @@ namespace SonarTest.IntgTest.Comparators
                         {
                             string actualLine = ActualrecordsList.FirstOrDefault(x => x.StartsWith(group.Key.POSKU));
                             string expectedLine = rec;
-                            CompareTricepsRecords(expectedLine, actualLine, string.Empty, RecordType.PODETAIL);
+                            CompareRecords(expectedLine, actualLine, string.Empty, RecordType.PODETAIL);
                         }
                     }
                 }
@@ -247,7 +244,7 @@ namespace SonarTest.IntgTest.Comparators
                 throw;
             }
         }
-        private bool CompareTricepsRecords(string expectedFileLine, string actualFileLine, string du, RecordType recordType)
+        private bool CompareRecords(string expectedFileLine, string actualFileLine, string du, RecordType recordType)
         {
             try
             {

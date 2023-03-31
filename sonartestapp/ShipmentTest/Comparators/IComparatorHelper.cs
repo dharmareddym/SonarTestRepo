@@ -2,6 +2,6 @@
 {
     public interface IComparatorHelper
     {
-        public Dictionary<string, List<string>> GetTricepsCartonAndAssociatedLines(string fileContent, string depotNumber);
+        public Dictionary<string, List<string>> GetCartonAndAssociatedLines(string fileContent, string depotNumber);
     }
 }
