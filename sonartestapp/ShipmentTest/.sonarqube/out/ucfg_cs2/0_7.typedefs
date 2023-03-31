@@ -1,0 +1,6 @@
+ù
+LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloaderobjectMDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.ITricepsFileDownloader
+TricepsFileDownloader()dDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.TricepsFileDownloader(){
+DownloadFiles(string)bDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.DownloadFiles(string)}
+ExtractExpectedFiles()cDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.ExtractExpectedFiles()Ô
+ADownloadTricepsFilesFromAzureBlob(string, string, string, string)ŽDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.DownloadTricepsFilesFromAzureBlob(string, string, string, string)

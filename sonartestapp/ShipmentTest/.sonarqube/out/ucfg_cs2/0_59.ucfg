@@ -1,0 +1,129 @@
+
+{Delivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.AzureConnector.UploadFileToAzureBlob(string, string, string, string)S
+GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\AzureConnector.csõ õ()"0*¤
+
+0
+ú$ þ(=$
+"
+
+úH ú(t
+%0"__id*
+""ge
+ú0 ú(„-
+%1'Azure.Storage.Blobs.BlobContainerClient"'Azure.Storage.Blobs.BlobContainerClientÂ
+¿
+
+ú4 ú(G
+
+%2void"KAzure.Storage.Blobs.BlobContainerClient.BlobContainerClient(string, string)*1/
+-
+%1'Azure.Storage.Blobs.BlobContainerClient*
+
+%0*
+
+containerNamestring~
+|
+ú$ ú(„4
+	container'Azure.Storage.Blobs.BlobContainerClient"__id*1/
+-
+%1'Azure.Storage.Blobs.BlobContainerClientìé
+
+û û(-
+%3Azure.Response<T>"‚Azure.Storage.Blobs.BlobContainerClient.CreateIfNotExists(Azure.Storage.Blobs.Models.PublicAccessType, System.Collections.Generic.IDictionary<string, string>, Azure.Storage.Blobs.Models.BlobContainerEncryptionScopeOptions, System.Threading.CancellationToken)*86
+4
+	container'Azure.Storage.Blobs.BlobContainerClient*
+""*
+""*
+""*
+""2ÚCreateIfNotExists(Azure.Storage.Blobs.Models.PublicAccessType, System.Collections.Generic.IDictionary<string, string>, Azure.Storage.Blobs.Models.BlobContainerEncryptionScopeOptions, System.Threading.CancellationToken)y
+w
+
+þ' þ(>
+%4System.IO.FileStream"System.IO.File.OpenRead(string)*"
+System.IO.File*
+
+filepathstringP
+N
+
+þ" þ(>
+fsSystem.IO.FileStream"__id*
+
+%4System.IO.FileStream*
+1*á
+1
+€ €(@n
+l
+
+€) €(<
+%5string"__concat*"
+
+€) €(1
+
+blobPathstring*"
+
+€4 €(<
+
+fileNamestringÚ×
+
+€ €(A
+%6Azure.Response<T>"pAzure.Storage.Blobs.BlobContainerClient.UploadBlob(string, System.IO.Stream, System.Threading.CancellationToken)*86
+4
+	container'Azure.Storage.Blobs.BlobContainerClient*
+
+%5string*
+
+fsSystem.IO.FileStream*
+""2HUploadBlob(string, System.IO.Stream, System.Threading.CancellationToken)*
+2*
+2
+	 (	*
+3
+4*Û
+3
+‡ ‹(b`
+
+ˆ[ ˆ(d
+%7string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get¹
+¶
+
+‡ ˆ(e
+
+%8void")System.Console.WriteLine(string, object?)*"
+System.Console*IGE
+CUnknown encountered on server. Message:'{0}' when writing an object*
+
+%7stringhf
+
+Š[ Š(g
+%9string"System.Exception.StackTrace.get*
+
+eSystem.Exception2StackTrace.getº
+·
+
+‰ Š(h
+%10void")System.Console.WriteLine(string, object?)*"
+System.Console*IGE
+CUnknown encountered on server. Message:'{0}' when writing an object*
+
+%9string*
+4*2
+4
+	 (	"!
+
+ (	
+implicit return:%
+
+õ* õ(>
+containerNamestring: 
+
+õ@ õ(O
+blobPathstring: 
+
+õQ õ(`
+fileNamestring: 
+
+õb õ(q
+filepathstringBIG
+EDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.AzureConnector

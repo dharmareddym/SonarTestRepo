@@ -1,0 +1,65 @@
+
+bDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.DownloadFiles(string)X
+NC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\TricepsFileDownloader.cs (!"0*ù
+0	 (ü"
+ 
+. (Y
+%0"__id*
+""#
+!
+	[ (Å
+%1"__id*
+""C
+A
+
+ç (ô
+%2string"__id**
+string"
+Emptystring≥
+∞
+	 (ö
+
+%3void"éDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.DownloadTricepsFilesFromAzureBlob(string, string, string, string)*RPN
+LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader*
+
+%0*
+
+%1*
+
+actual*
+
+%2string"
+ 
+. ([
+%4"__id*
+""#
+!
+	] (Ö
+%5"__id*
+""C
+A
+
+ì (ü
+%6string"__id**
+string"
+Emptystringµ
+≤
+	 (†
+
+%7void"éDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.DownloadTricepsFilesFromAzureBlob(string, string, string, string)*RPN
+LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader*
+
+%4*
+
+%5*
+
+expected*
+
+%6string*
+1*.
+1	 (	"
+ (	
+implicit return:
+" (7
+depotIdstringBPN
+LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader

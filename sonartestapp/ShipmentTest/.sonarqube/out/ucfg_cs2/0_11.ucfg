@@ -1,0 +1,160 @@
+
+jDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants.GetTestFilePath(string, string)V
+LC:\SonarTestRepo\sonartestapp\ShipmentTest\constants\ApplicationConstants.cs (,"0*
+0(	 ((	*
+1
+2*Î
+1 !(`
+^
+% (<
+%0System.AppDomain""System.AppDomain.CurrentDomain.get*"
+System.AppDomainZ
+X
+% (J
+%1string""System.AppDomain.BaseDirectory.get*
+
+%0System.AppDomain;
+9
+ (J
+startupPathstring"__id*
+
+%1string"
+ 
+2 (M
+%2"__id*
+""z
+x
+  (N
+%3string[]"-string.Split(char, System.StringSplitOptions)*
+
+startupPathstring*
+
+%2*
+""=
+;
+ (N
+	pathItemsstring[]"__id*
+
+%3string[]Ñ
+Î
+ (-/
+%4)System.Collections.Generic.IEnumerable<T>"XSystem.Linq.Enumerable.Reverse<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*
+
+	pathItemsstring[]ã
+à
+ (6(
+%5"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*31
+/
+%4)System.Collections.Generic.IEnumerable<T>š
+—
+ (^	
+%6int"HSystem.Collections.Generic.ICollection<T>.FindIndex(System.Predicate<T>)*,*
+(
+%5"System.Collections.Generic.List<T>*
+""-
++
+ (^
+
+posint"__id*
+	
+%6int"
+ 
+1 (L
+%7"__id*
+""5
+3
+1 (W
+%8string"char.ToString()*
+
+%7K
+I
+h (x	
+%9int"System.Array.Length.get*
+
+	pathItemsstring[]ß
+Ü
+	Y (ƒ0
+%10)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*
+
+	pathItemsstring[]*
+""º
+·
+	% („
+%11string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+
+%8string*42
+0
+%10)System.Collections.Generic.IEnumerable<T>=
+;
+	 („
+projectPathstring"__id*
+
+%11string¯
+¬
+" (Q
+%12string".System.IO.Path.Combine(string, string, string)*"
+System.IO.Path*
+
+projectPathstring*
+
+
+folderNamestring*
+
+fileNamestring9
+7
+ (Q
+filepathstring"__id*
+
+%12stringc
+a
+ "  (9
+%13string"__concat*
+ "  (.
+
+Filepath -* 
+ 1  (9
+
+filepathstringe
+c
+   (:
+%14void"!System.Console.WriteLine(string?)*"
+System.Console*
+
+%13string" 
+! !( 
+
+filepathstring*Û
+2% %(Yb`
+%O %(Y
+%15string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get|
+z
+%" %(Y
+%16string"__concat*8
+%" %(L,*
+(Exception occured in getting file path -*
+%O %(Y
+
+%15stringe
+c
+% %(Z
+%17void"!System.Console.WriteLine(string?)*"
+System.Console*
+
+%16string*
+3*.
+3(	 ((	"
+( ((	
+implicit return: 
+- (>
+
+folderNamestring:
+@ (O
+fileNamestringBN"L
+JDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants

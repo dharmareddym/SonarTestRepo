@@ -1,0 +1,29 @@
+
+%Ebixio.LZW.LzwInputStream.CanRead.getS
+GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\LzwInputStream.csé é("0*÷
+0
+ë ë(.t
+r
+
+ë ë(&
+%0System.IO.Stream"__id*FD*B
+Ebixio.LZW.LzwInputStream"#
+baseInputStreamSystem.IO.StreamT
+R
+
+ë ë(.
+
+%1bool"System.IO.Stream.CanRead.get*
+
+%0System.IO.Stream"
+
+ë ë(/
+
+
+%1bool*2
+1
+ì ì("!
+
+ì ì(
+implicit returnB
+Ebixio.LZW.LzwInputStream

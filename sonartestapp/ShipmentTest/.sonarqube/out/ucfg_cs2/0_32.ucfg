@@ -1,0 +1,29 @@
+
+:Ebixio.LZW.LzwInputStream.Seek(long, System.IO.SeekOrigin)S
+GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\LzwInputStream.cs³ ³(!"0*’
+0
+µ µ(OPN
+
+µ µ(P"
+%0System.NotSupportedException"System.NotSupportedException©
+¦
+
+µ µ(+
+
+%1void";System.NotSupportedException.NotSupportedException(string?)*&$
+"
+%0System.NotSupportedException*'%#
+!LzwInputStream Seek not supported*
+1*2
+1
+¶	 ¶(	"!
+
+¶ ¶(	
+implicit return:
+
+³" ³(-
+offsetlong:,
+
+³/ ³(@
+originSystem.IO.SeekOriginB
+Ebixio.LZW.LzwInputStream

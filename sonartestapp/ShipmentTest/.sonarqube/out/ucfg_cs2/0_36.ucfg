@@ -1,0 +1,38 @@
+
+TEbixio.LZW.LzwInputStream.BeginWrite(byte[], int, int, System.AsyncCallback, object)S
+GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\LzwInputStream.cså% å(/"0*˜
+0
+ç ç(UPN
+
+ç ç(V"
+%0System.NotSupportedException"System.NotSupportedException¯
+¬
+
+ç ç(+
+
+%1void";System.NotSupportedException.NotSupportedException(string?)*&$
+"
+%0System.NotSupportedException*-+)
+'LzwInputStream BeginWrite not supported*
+1*2
+1
+è	 è(	"!
+
+è è(	
+implicit return:
+
+å0 å(=
+bufferbyte[]:
+
+å? å(I
+offsetint:
+
+åK å(T
+countint:.
+
+åV å(l 
+callbackSystem.AsyncCallback:
+
+ån å(z
+stateobjectB
+Ebixio.LZW.LzwInputStream

@@ -1,0 +1,26 @@
+
+)Ebixio.LZW.LzwInputStream.WriteByte(byte)S
+GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\LzwInputStream.csÖ Ö(&"0*—
+0
+Ø Ø(TPN
+
+Ø Ø(U"
+%0System.NotSupportedException"System.NotSupportedException®
+«
+
+Ø Ø(+
+
+%1void";System.NotSupportedException.NotSupportedException(string?)*&$
+"
+%0System.NotSupportedException*,*(
+&LzwInputStream WriteByte not supported*
+1*2
+1
+Ù	 Ù(	"!
+
+Ù Ù(	
+implicit return:
+
+Ö' Ö(1
+valuebyteB
+Ebixio.LZW.LzwInputStream

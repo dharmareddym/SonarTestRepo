@@ -1,0 +1,150 @@
+
+qDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.AzureConnector.DeleteAllFilesFromAzureBlob(string, string)S
+GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\AzureConnector.csÙ Ù(/"0*×
+0
+Ü  Ý()$
+"
+
+ÜD Ü(p
+%0"__id*
+""ge
+Ü, Ü(€-
+%1'Azure.Storage.Blobs.BlobContainerClient"'Azure.Storage.Blobs.BlobContainerClientÂ
+¿
+
+Ü0 Ü(C
+
+%2void"KAzure.Storage.Blobs.BlobContainerClient.BlobContainerClient(string, string)*1/
+-
+%1'Azure.Storage.Blobs.BlobContainerClient*
+
+%0*
+
+containerNamestring~
+|
+Ü  Ü(€4
+	container'Azure.Storage.Blobs.BlobContainerClient"__id*1/
+-
+%1'Azure.Storage.Blobs.BlobContainerClientìé
+
+Ý Ý()
+%3Azure.Response<T>"‚Azure.Storage.Blobs.BlobContainerClient.CreateIfNotExists(Azure.Storage.Blobs.Models.PublicAccessType, System.Collections.Generic.IDictionary<string, string>, Azure.Storage.Blobs.Models.BlobContainerEncryptionScopeOptions, System.Threading.CancellationToken)*86
+4
+	container'Azure.Storage.Blobs.BlobContainerClient*
+""*
+""*
+""*
+""2ÚCreateIfNotExists(Azure.Storage.Blobs.Models.PublicAccessType, System.Collections.Generic.IDictionary<string, string>, Azure.Storage.Blobs.Models.BlobContainerEncryptionScopeOptions, System.Threading.CancellationToken)*
+1*á
+1
+â* â(MÊÇ
+
+â* â(N
+%4Azure.Pageable<T>"ªAzure.Storage.Blobs.BlobContainerClient.GetBlobs(Azure.Storage.Blobs.Models.BlobTraits, Azure.Storage.Blobs.Models.BlobStates, string, System.Threading.CancellationToken)*86
+4
+	container'Azure.Storage.Blobs.BlobContainerClient*
+""*
+""*
+
+blobPathstring*
+""2‚GetBlobs(Azure.Storage.Blobs.Models.BlobTraits, Azure.Storage.Blobs.Models.BlobStates, string, System.Threading.CancellationToken)*
+2*
+2
+ó	 ó(	*
+3
+4*Ñ
+3
+ä å(2{
+y
+
+ä9 ä(B
+%5string",Azure.Storage.Blobs.Models.BlobItem.Name.get*/-
++
+blob#Azure.Storage.Blobs.Models.BlobItemf
+d
+
+ä& ä(B
+%6string"__concat* 
+
+ä& ä(6
+Deleting Blob-*
+
+ä9 ä(B
+
+%5stringe
+c
+
+ä ä(C
+
+%7void"!System.Console.WriteLine(string?)*"
+System.Console*
+
+%6string{
+y
+
+å) å(2
+%8string",Azure.Storage.Blobs.Models.BlobItem.Name.get*/-
++
+blob#Azure.Storage.Blobs.Models.BlobItemñî
+
+å å(3
+%9Azure.Response"ÂAzure.Storage.Blobs.BlobContainerClient.DeleteBlob(string, Azure.Storage.Blobs.Models.DeleteSnapshotsOption, Azure.Storage.Blobs.Models.BlobRequestConditions, System.Threading.CancellationToken)*86
+4
+	container'Azure.Storage.Blobs.BlobContainerClient*
+
+%8string*
+""*
+""*
+""2šDeleteBlob(string, Azure.Storage.Blobs.Models.DeleteSnapshotsOption, Azure.Storage.Blobs.Models.BlobRequestConditions, System.Threading.CancellationToken)*
+2*†
+4
+è è(5m
+k
+
+è è(6
+%10void"!System.Console.WriteLine(string?)*"
+System.Console*
+Deleted All Files*
+5
+6*â
+5
+í ñ(ca
+
+î\ î(e
+%11string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get¼
+¹
+
+í î(f
+%12void")System.Console.WriteLine(string, object?)*"
+System.Console*JHF
+DUnknown encountered on server. Message:'{0}' when deleting an object*
+
+%11stringig
+
+ð\ ð(h
+%13string"System.Exception.StackTrace.get*
+
+eSystem.Exception2StackTrace.get¼
+¹
+
+ï ð(i
+%14void")System.Console.WriteLine(string, object?)*"
+System.Console*JHF
+DUnknown encountered on server. Message:'{0}' when deleting an object*
+
+%13string*
+6*2
+6
+ó	 ó(	"!
+
+ó ó(	
+implicit return:%
+
+Ù0 Ù(D
+containerNamestring: 
+
+ÙF Ù(U
+blobPathstringBIG
+EDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.AzureConnector

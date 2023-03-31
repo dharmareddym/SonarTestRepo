@@ -1,0 +1,36 @@
+
+rDelivery.DESADVAdaptorsParallelRun.IntgTest.Comparators.FileCompare.Equals(System.IO.FileInfo, System.IO.FileInfo)O
+EC:\SonarTestRepo\sonartestapp\ShipmentTest\Comparators\FileCompare.cs ("0*Å
+0 (&U
+S
+ (
+%0string"System.IO.FileInfo.Name.get*
+
+f1System.IO.FileInfoU
+S
+ (&
+%1string"System.IO.FileInfo.Name.get*
+
+f2System.IO.FileInfon
+l
+ (&
+
+%2bool""string.operator ==(string, string)*
+"
+string*
+
+%0string*
+
+%1string"
+ ((
+
+
+%2bool*.
+1	 (	"
+ (	
+implicit return:$
+ (&
+f1System.IO.FileInfo:$
+( (3
+f2System.IO.FileInfoBGE
+CDelivery.DESADVAdaptorsParallelRun.IntgTest.Comparators.FileCompare

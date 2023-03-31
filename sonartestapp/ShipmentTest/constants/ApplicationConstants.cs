@@ -12,13 +12,13 @@ namespace Delivery.DESADVAdaptorsParallelRun.IntgTest.constants
         public const  string Actual_FILES_PATH = $"";
         public const  string EXPECTED_FILES_PATH = "";
 
-        public static string BASE_PATH = GetTestFilePath("testdata", "");
-        public static  string LOCAL_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"expectedoutput/");
-        public static string LOCAL_COMPRESSED_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"compressed/");
-        public static string LOCAL_UNCOMPRESSED_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"uncompressed/");
-        public static  string LOCAL_ACTUAL_FILE_PATH = Path.Combine(BASE_PATH, @"actualoutput/");       
-        public static readonly string LOG_FILE = Path.Combine(BASE_PATH, $"logs/DesAdvFromLPToLegacyLog_{DateTime.UtcNow.ToString("ddMMyyyyHh")}.txt");
-        public static readonly string LOG_FOLDER = Path.Combine(BASE_PATH, "logs/");
+        public const string BASE_PATH = GetTestFilePath("testdata", "");
+        public const string LOCAL_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"expectedoutput/");
+        public const string LOCAL_COMPRESSED_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"compressed/");
+        public const string LOCAL_UNCOMPRESSED_EXPECTED_FILE_PATH = Path.Combine(BASE_PATH, @"uncompressed/");
+        public const string LOCAL_ACTUAL_FILE_PATH = Path.Combine(BASE_PATH, @"actualoutput/");       
+        public const readonly string LOG_FILE = Path.Combine(BASE_PATH, $"logs/DesAdvFromLPToLegacyLog_{DateTime.UtcNow.ToString("ddMMyyyyHh")}.txt");
+        public const readonly string LOG_FOLDER = Path.Combine(BASE_PATH, "logs/");
 
         public static string GetTestFilePath(string folderName, string fileName)
         {

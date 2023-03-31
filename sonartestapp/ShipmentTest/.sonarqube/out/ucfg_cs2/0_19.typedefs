@@ -1,0 +1,30 @@
+è
+Ebixio.LZW.LzwInputStreamSystem.IO.StreamSystem.MarshalByRefObjectobject^
+ LzwInputStream(System.IO.Stream):Ebixio.LZW.LzwInputStream.LzwInputStream(System.IO.Stream)2
+
+ReadByte()$Ebixio.LZW.LzwInputStream.ReadByte()8
+ResetBuf(int)'Ebixio.LZW.LzwInputStream.ResetBuf(int)*
+Fill() Ebixio.LZW.LzwInputStream.Fill()8
+ParseHeader()'Ebixio.LZW.LzwInputStream.ParseHeader()J
+Read(byte[], int, int)0Ebixio.LZW.LzwInputStream.Read(byte[], int, int),
+Flush()!Ebixio.LZW.LzwInputStream.Flush()^
+ Seek(long, System.IO.SeekOrigin):Ebixio.LZW.LzwInputStream.Seek(long, System.IO.SeekOrigin)<
+SetLength(long))Ebixio.LZW.LzwInputStream.SetLength(long)L
+Write(byte[], int, int)1Ebixio.LZW.LzwInputStream.Write(byte[], int, int)<
+WriteByte(byte))Ebixio.LZW.LzwInputStream.WriteByte(byte)í
+:BeginWrite(byte[], int, int, System.AsyncCallback, object)TEbixio.LZW.LzwInputStream.BeginWrite(byte[], int, int, System.AsyncCallback, object),
+Close()!Ebixio.LZW.LzwInputStream.Close()4
+CanRead.get%Ebixio.LZW.LzwInputStream.CanRead.get4
+CanRead.set%Ebixio.LZW.LzwInputStream.CanRead.set4
+CanSeek.get%Ebixio.LZW.LzwInputStream.CanSeek.get4
+CanSeek.set%Ebixio.LZW.LzwInputStream.CanSeek.set6
+CanWrite.get&Ebixio.LZW.LzwInputStream.CanWrite.get6
+CanWrite.set&Ebixio.LZW.LzwInputStream.CanWrite.set2
+
+Length.get$Ebixio.LZW.LzwInputStream.Length.get2
+
+Length.set$Ebixio.LZW.LzwInputStream.Length.set6
+Position.get&Ebixio.LZW.LzwInputStream.Position.get6
+Position.set&Ebixio.LZW.LzwInputStream.Position.set@
+IsStreamOwner.get+Ebixio.LZW.LzwInputStream.IsStreamOwner.get@
+IsStreamOwner.set+Ebixio.LZW.LzwInputStream.IsStreamOwner.set
