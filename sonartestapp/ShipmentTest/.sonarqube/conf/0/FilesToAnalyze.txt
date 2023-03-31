@@ -20,3 +20,4 @@ C:\SonarTestRepo\sonartestapp\ShipmentTest\Startup.cs
 C:\SonarTestRepo\sonartestapp\ShipmentTest\testdata\actualoutput\IWS.txt
 C:\SonarTestRepo\sonartestapp\ShipmentTest\testdata\compressed\DNLIWS202303010223372.CPY.Z
 C:\SonarTestRepo\sonartestapp\ShipmentTest\testdata\logs\DesAdvFromLPToLegacyLog_2103202388.txt
+C:\SonarTestRepo\sonartestapp\ShipmentTest\obj\Debug\net6.0\apphost.exe

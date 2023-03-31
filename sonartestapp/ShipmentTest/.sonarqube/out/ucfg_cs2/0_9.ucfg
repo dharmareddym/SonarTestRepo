@@ -1,36 +1,0 @@
-
->lsp_delivery_tricepsadaptor_parallelrun.Startup.Main(string[])?
-5C:\SonarTestRepo\sonartestapp\ShipmentTest\Startup.cs
- 
-("0*Ö
-0 (>]
-[
- (%
-
-%0void"!System.Console.WriteLine(string?)*"
-System.Console*
-
-Test¯¬
- ('R
-%1LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader"LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader×
-Ô
- (%
-
-%2void"dDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.TricepsFileDownloader()*VT
-R
-%1LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloaderÖ
-Ó
- (>
-
-%3void"cDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.ExtractExpectedFiles()*VT
-R
-%1LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader*
-1*.
-1	 (	"
- (	
-implicit return:
-
-  
-(-
-argsstring[]B3"1
-/lsp_delivery_tricepsadaptor_parallelrun.Startup

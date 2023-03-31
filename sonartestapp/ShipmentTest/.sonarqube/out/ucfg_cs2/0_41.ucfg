@@ -1,51 +1,0 @@
-
-dDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader.TricepsFileDownloader()X
-NC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\TricepsFileDownloader.cs ($"1*Î
-1	 (	e
-c
-# (5
-%0System.DateTimeOffset"System.DateTimeOffset.Now.get*"
-System.DateTimeOffsetd
-b
-# (:
-%1System.DateTime"System.DateTimeOffset.Date.get*
-
-%0System.DateTimeOffseti
-g
-# (F
-%2System.DateTime"System.DateTime.AddDays(double)*
-
-%1System.DateTime*
-""¤
-¡
- (FtN
-LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader""
-	dateStartSystem.DateTimeOffset"__id*
-
-%2System.DateTimee
-c
-! (3
-%3System.DateTimeOffset"System.DateTimeOffset.Now.get*"
-System.DateTimeOffsetd
-b
-! (8
-%4System.DateTime"System.DateTimeOffset.Date.get*
-
-%3System.DateTimeOffseti
-g
-! (D
-%5System.DateTime"System.DateTime.AddDays(double)*
-
-%4System.DateTime*
-""¢
-Ÿ
- (DrN
-LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader" 
-dateEndSystem.DateTimeOffset"__id*
-
-%5System.DateTime*
-0*.
-0	 (	"
- (	
-implicit returnBPN
-LDelivery.DESADVAdaptorsParallelRun.IntgTest.AzureUtils.TricepsFileDownloader

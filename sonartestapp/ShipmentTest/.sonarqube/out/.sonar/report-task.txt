@@ -1,7 +1,0 @@
-organization=dharmareddym
-projectKey=dharmareddym_SonarTestRepo
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.39607
-dashboardUrl=https://sonarcloud.io/dashboard?id=dharmareddym_SonarTestRepo
-ceTaskId=AYc39A2TrZUh6-WeHBKr
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYc39A2TrZUh6-WeHBKr

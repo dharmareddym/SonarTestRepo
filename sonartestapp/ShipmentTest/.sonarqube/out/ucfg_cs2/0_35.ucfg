@@ -1,32 +1,0 @@
-
-1Ebixio.LZW.LzwInputStream.Write(byte[], int, int)S
-GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\LzwInputStream.csË Ë(""0*“
-0
-Í Í(PPN
-
-Í Í(Q"
-%0System.NotSupportedException"System.NotSupportedExceptionª
-§
-
-Í Í(+
-
-%1void";System.NotSupportedException.NotSupportedException(string?)*&$
-"
-%0System.NotSupportedException*(&$
-"LzwInputStream Write not supported*
-1*2
-1
-Î	 Î(	"!
-
-Î Î(	
-implicit return:
-
-Ë# Ë(0
-bufferbyte[]:
-
-Ë2 Ë(<
-offsetint:
-
-Ë> Ë(G
-countintB
-Ebixio.LZW.LzwInputStream

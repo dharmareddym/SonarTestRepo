@@ -1,26 +1,0 @@
-
-)Ebixio.LZW.LzwInputStream.SetLength(long)S
-GC:\SonarTestRepo\sonartestapp\ShipmentTest\AzureUtils\LzwInputStream.cs¾ ¾(&"0*—
-0
-À À(TPN
-
-À À(U"
-%0System.NotSupportedException"System.NotSupportedException®
-«
-
-À À(+
-
-%1void";System.NotSupportedException.NotSupportedException(string?)*&$
-"
-%0System.NotSupportedException*,*(
-&LzwInputStream SetLength not supported*
-1*2
-1
-Á	 Á(	"!
-
-Á Á(	
-implicit return:
-
-¾' ¾(1
-valuelongB
-Ebixio.LZW.LzwInputStream

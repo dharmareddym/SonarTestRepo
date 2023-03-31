@@ -1,89 +1,0 @@
-
-Klsp_delivery_tricepsadaptor_parallelrun.HouseKeep.HouseKeeper.DeleteFiles()M
-CC:\SonarTestRepo\sonartestapp\ShipmentTest\HouseKeep\HouseKeeper.cs ("0*ù
-0 (Nô
-ñ
-! (N
-%0string"__id*vt*rL
-JDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants""
-LOCAL_EXPECTED_FILE_PATHstringj
-h
- (O
-
-%1bool"#System.IO.Directory.Exists(string?)*"
-System.IO.Directory*
-
-%0string*
-1
-2*Œ
-1 (Wô
-ñ
-! (N
-%2string"__id*vt*rL
-JDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants""
-LOCAL_EXPECTED_FILE_PATHstringy
-w
- (U
-
-%3void"(System.IO.Directory.Delete(string, bool)*"
-System.IO.Directory*
-
-%2string*
-""ô
-ñ
-* (W
-%4string"__id*vt*rL
-JDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants""
-LOCAL_EXPECTED_FILE_PATHstringÜ
-É
- (X
-%5System.IO.DirectoryInfo"+System.IO.Directory.CreateDirectory(string)*"
-System.IO.Directory*
-
-%4string*
-2*õ
-2 (Ló
-î
-! (L
-%6string"__id*tr*pL
-JDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants" 
-LOCAL_ACTUAL_FILE_PATHstringj
-h
- (M
-
-%7bool"#System.IO.Directory.Exists(string?)*"
-System.IO.Directory*
-
-%6string*
-3
-4*Õ
-3 (Uó
-î
-! (L
-%8string"__id*tr*pL
-JDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants" 
-LOCAL_ACTUAL_FILE_PATHstringy
-w
- (S
-
-%9void"(System.IO.Directory.Delete(string, bool)*"
-System.IO.Directory*
-
-%8string*
-""ò
-ï
-* (U
-%10string"__id*tr*pL
-JDelivery.DESADVAdaptorsParallelRun.IntgTest.constants.ApplicationConstants" 
-LOCAL_ACTUAL_FILE_PATHstringà
-Ö
- (V
-%11System.IO.DirectoryInfo"+System.IO.Directory.CreateDirectory(string)*"
-System.IO.Directory*
-
-%10string*
-4*.
-4	 (	"
- (	
-implicit returnBA?
-=lsp_delivery_tricepsadaptor_parallelrun.HouseKeep.HouseKeeper
